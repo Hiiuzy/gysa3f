@@ -1,0 +1,471 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local AllahMain = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local combat = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local combattab = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local minimize = Instance.new("TextButton")
+local server = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local servertab = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local minimize_2 = Instance.new("TextButton")
+local render = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local rendertab = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
+local minimize_3 = Instance.new("TextButton")
+local movement = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local movementtab = Instance.new("Frame")
+local UICorner_8 = Instance.new("UICorner")
+local minimize_4 = Instance.new("TextButton")
+local trinketesp = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local trinkettab = Instance.new("Frame")
+local UICorner_10 = Instance.new("UICorner")
+local minimize_5 = Instance.new("TextButton")
+local troll = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local trolltab = Instance.new("Frame")
+local UICorner_12 = Instance.new("UICorner")
+local minimize_6 = Instance.new("TextButton")
+local playeresp = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local esptab = Instance.new("Frame")
+local UICorner_14 = Instance.new("UICorner")
+local minimize_7 = Instance.new("TextButton")
+
+--Properties:
+
+AllahMain.Name = "AllahMain"
+AllahMain.Parent = game.CoreGui
+AllahMain.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+main.Name = "main"
+main.Parent = AllahMain
+main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+main.BackgroundTransparency = 1.000
+main.Position = UDim2.new(0.0247706398, 0, -5.96046448e-08, 0)
+main.Size = UDim2.new(0, 835, 0, 337)
+
+combat.Name = "combat"
+combat.Parent = main
+combat.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+combat.Position = UDim2.new(-0.00855540019, 0, 0.0221088398, 0)
+combat.Size = UDim2.new(0, 105, 0, 26)
+combat.Font = Enum.Font.PermanentMarker
+combat.Text = "Combat"
+combat.TextColor3 = Color3.fromRGB(0, 0, 0)
+combat.TextSize = 14.000
+combat.TextWrapped = true
+
+UICorner.Parent = combat
+
+combattab.Name = "combattab"
+combattab.Parent = combat
+combattab.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+combattab.BackgroundTransparency = 0.350
+combattab.Position = UDim2.new(0, 0, 1.00000012, 0)
+combattab.Size = UDim2.new(0, 107, 0, 246)
+combattab.Visible = false
+
+UICorner_2.Parent = combattab
+
+minimize.Name = "minimize"
+minimize.Parent = combat
+minimize.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+minimize.BackgroundTransparency = 1.000
+minimize.Position = UDim2.new(0.838095248, 0, -0.0173326731, 0)
+minimize.Size = UDim2.new(0, 17, 0, 11)
+minimize.Font = Enum.Font.SourceSans
+minimize.Text = "-"
+minimize.TextColor3 = Color3.fromRGB(0, 0, 0)
+minimize.TextSize = 14.000
+
+server.Name = "server"
+server.Parent = main
+server.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+server.Position = UDim2.new(0.1381827, 0, 0.0221088398, 0)
+server.Size = UDim2.new(0, 111, 0, 26)
+server.Font = Enum.Font.PermanentMarker
+server.Text = "Server"
+server.TextColor3 = Color3.fromRGB(0, 0, 0)
+server.TextSize = 14.000
+server.TextWrapped = true
+
+UICorner_3.Parent = server
+
+servertab.Name = "servertab"
+servertab.Parent = server
+servertab.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+servertab.BackgroundTransparency = 0.350
+servertab.Position = UDim2.new(0, 0, 1.00000012, 0)
+servertab.Size = UDim2.new(0, 107, 0, 246)
+servertab.Visible = false
+
+UICorner_4.Parent = servertab
+
+minimize_2.Name = "minimize"
+minimize_2.Parent = server
+minimize_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+minimize_2.BackgroundTransparency = 1.000
+minimize_2.Position = UDim2.new(0.838095248, 0, -0.0173326731, 0)
+minimize_2.Size = UDim2.new(0, 17, 0, 11)
+minimize_2.Font = Enum.Font.SourceSans
+minimize_2.Text = "-"
+minimize_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+minimize_2.TextSize = 14.000
+
+render.Name = "render"
+render.Parent = main
+render.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+render.Position = UDim2.new(0.282651991, 0, 0.0221088398, 0)
+render.Size = UDim2.new(0, 110, 0, 26)
+render.Font = Enum.Font.PermanentMarker
+render.Text = "Render"
+render.TextColor3 = Color3.fromRGB(0, 0, 0)
+render.TextSize = 14.000
+render.TextWrapped = true
+
+UICorner_5.Parent = render
+
+rendertab.Name = "rendertab"
+rendertab.Parent = render
+rendertab.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+rendertab.BackgroundTransparency = 0.350
+rendertab.Position = UDim2.new(0, 0, 1.00000012, 0)
+rendertab.Size = UDim2.new(0, 107, 0, 246)
+rendertab.Visible = false
+
+UICorner_6.Parent = rendertab
+
+minimize_3.Name = "minimize"
+minimize_3.Parent = render
+minimize_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+minimize_3.BackgroundTransparency = 1.000
+minimize_3.Position = UDim2.new(0.838095248, 0, -0.0173326731, 0)
+minimize_3.Size = UDim2.new(0, 17, 0, 11)
+minimize_3.Font = Enum.Font.SourceSans
+minimize_3.Text = "-"
+minimize_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+minimize_3.TextSize = 14.000
+
+movement.Name = "movement"
+movement.Parent = main
+movement.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+movement.Position = UDim2.new(0.425979435, 0, 0.0221088398, 0)
+movement.Size = UDim2.new(0, 107, 0, 26)
+movement.Font = Enum.Font.PermanentMarker
+movement.Text = "Movement"
+movement.TextColor3 = Color3.fromRGB(0, 0, 0)
+movement.TextSize = 14.000
+movement.TextWrapped = true
+
+UICorner_7.Parent = movement
+
+movementtab.Name = "movementtab"
+movementtab.Parent = movement
+movementtab.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+movementtab.BackgroundTransparency = 0.350
+movementtab.Position = UDim2.new(0, 0, 1.00000012, 0)
+movementtab.Size = UDim2.new(0, 107, 0, 246)
+movementtab.Visible = false
+
+UICorner_8.Parent = movementtab
+
+minimize_4.Name = "minimize"
+minimize_4.Parent = movement
+minimize_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+minimize_4.BackgroundTransparency = 1.000
+minimize_4.Position = UDim2.new(0.838095248, 0, -0.0173326731, 0)
+minimize_4.Size = UDim2.new(0, 17, 0, 11)
+minimize_4.Font = Enum.Font.SourceSans
+minimize_4.Text = "-"
+minimize_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+minimize_4.TextSize = 14.000
+
+trinketesp.Name = "trinketesp"
+trinketesp.Parent = main
+trinketesp.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+trinketesp.Position = UDim2.new(0.713524282, 0, 0.0221088398, 0)
+trinketesp.Size = UDim2.new(0, 103, 0, 26)
+trinketesp.Font = Enum.Font.PermanentMarker
+trinketesp.Text = "TrinketEsp"
+trinketesp.TextColor3 = Color3.fromRGB(0, 0, 0)
+trinketesp.TextSize = 18.000
+trinketesp.TextWrapped = true
+
+UICorner_9.Parent = trinketesp
+
+trinkettab.Name = "trinkettab"
+trinkettab.Parent = trinketesp
+trinkettab.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+trinkettab.BackgroundTransparency = 0.350
+trinkettab.Position = UDim2.new(0, 0, 1.00000012, 0)
+trinkettab.Size = UDim2.new(0, 107, 0, 246)
+trinkettab.Visible = false
+
+UICorner_10.Parent = trinkettab
+
+minimize_5.Name = "minimize"
+minimize_5.Parent = trinketesp
+minimize_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+minimize_5.BackgroundTransparency = 1.000
+minimize_5.Position = UDim2.new(0.838095248, 0, -0.0173326731, 0)
+minimize_5.Size = UDim2.new(0, 17, 0, 11)
+minimize_5.Font = Enum.Font.SourceSans
+minimize_5.Text = "-"
+minimize_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+minimize_5.TextSize = 14.000
+
+troll.Name = "troll"
+troll.Parent = main
+troll.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+troll.Position = UDim2.new(0.855160236, 0, 0.0221088398, 0)
+troll.Size = UDim2.new(0, 103, 0, 26)
+troll.Font = Enum.Font.PermanentMarker
+troll.Text = "Troll"
+troll.TextColor3 = Color3.fromRGB(0, 0, 0)
+troll.TextSize = 14.000
+troll.TextWrapped = true
+
+UICorner_11.Parent = troll
+
+trolltab.Name = "trolltab"
+trolltab.Parent = troll
+trolltab.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+trolltab.BackgroundTransparency = 0.350
+trolltab.Position = UDim2.new(0, 0, 1.00000012, 0)
+trolltab.Size = UDim2.new(0, 107, 0, 246)
+trolltab.Visible = false
+
+UICorner_12.Parent = trolltab
+
+minimize_6.Name = "minimize"
+minimize_6.Parent = troll
+minimize_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+minimize_6.BackgroundTransparency = 1.000
+minimize_6.Position = UDim2.new(0.838095248, 0, -0.0173326731, 0)
+minimize_6.Size = UDim2.new(0, 17, 0, 11)
+minimize_6.Font = Enum.Font.SourceSans
+minimize_6.Text = "-"
+minimize_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+minimize_6.TextSize = 14.000
+
+playeresp.Name = "playeresp"
+playeresp.Parent = main
+playeresp.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+playeresp.Position = UDim2.new(0.574563622, 0, 0.0221088398, 0)
+playeresp.Size = UDim2.new(0, 103, 0, 26)
+playeresp.Font = Enum.Font.PermanentMarker
+playeresp.Text = "PlayerEsp"
+playeresp.TextColor3 = Color3.fromRGB(0, 0, 0)
+playeresp.TextSize = 16.000
+playeresp.TextWrapped = true
+
+UICorner_13.Parent = playeresp
+
+esptab.Name = "esptab"
+esptab.Parent = playeresp
+esptab.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+esptab.BackgroundTransparency = 0.350
+esptab.Position = UDim2.new(0, 0, 1.00000012, 0)
+esptab.Size = UDim2.new(0, 103, 0, 246)
+esptab.Visible = false
+
+UICorner_14.Parent = esptab
+
+minimize_7.Name = "minimize"
+minimize_7.Parent = playeresp
+minimize_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+minimize_7.BackgroundTransparency = 1.000
+minimize_7.Position = UDim2.new(0.838095248, 0, -0.0173326731, 0)
+minimize_7.Size = UDim2.new(0, 17, 0, 11)
+minimize_7.Font = Enum.Font.SourceSans
+minimize_7.Text = "-"
+minimize_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+minimize_7.TextSize = 14.000
+
+-- Scripts:
+
+local function ZEANFKF_fake_script() -- combat.LocalScript 
+	local script = Instance.new('LocalScript', combat)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.combattab.Visible = true
+	end)
+end
+coroutine.wrap(ZEANFKF_fake_script)()
+local function GKWHR_fake_script() -- minimize.LocalScript 
+	local script = Instance.new('LocalScript', minimize)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.combattab.Visible = false
+	end)
+end
+coroutine.wrap(GKWHR_fake_script)()
+local function MMBJZ_fake_script() -- minimize_2.LocalScript 
+	local script = Instance.new('LocalScript', minimize_2)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.servertab.Visible = false
+	end)
+end
+coroutine.wrap(MMBJZ_fake_script)()
+local function WKUYQXO_fake_script() -- server.LocalScript 
+	local script = Instance.new('LocalScript', server)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.servertab.Visible = true
+	end)
+end
+coroutine.wrap(WKUYQXO_fake_script)()
+local function ORDGD_fake_script() -- render.LocalScript 
+	local script = Instance.new('LocalScript', render)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.rendertab.Visible = true
+	end)
+end
+coroutine.wrap(ORDGD_fake_script)()
+local function SXNP_fake_script() -- minimize_3.LocalScript 
+	local script = Instance.new('LocalScript', minimize_3)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.rendertab.Visible = false
+	end)
+end
+coroutine.wrap(SXNP_fake_script)()
+local function MTXNR_fake_script() -- minimize_4.LocalScript 
+	local script = Instance.new('LocalScript', minimize_4)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.movementtab.Visible = false
+	end)
+end
+coroutine.wrap(MTXNR_fake_script)()
+local function BSUCPWB_fake_script() -- movement.LocalScript 
+	local script = Instance.new('LocalScript', movement)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.movementtab.Visible = true
+	end)
+end
+coroutine.wrap(BSUCPWB_fake_script)()
+local function XOBQZ_fake_script() -- trinketesp.LocalScript 
+	local script = Instance.new('LocalScript', trinketesp)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.trinkettab.Visible = true
+	end)
+end
+coroutine.wrap(XOBQZ_fake_script)()
+local function SAJJGEZ_fake_script() -- minimize_5.LocalScript 
+	local script = Instance.new('LocalScript', minimize_5)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.trinkettab.Visible = false
+	end)
+end
+coroutine.wrap(SAJJGEZ_fake_script)()
+local function HYZDUT_fake_script() -- minimize_6.LocalScript 
+	local script = Instance.new('LocalScript', minimize_6)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.trolltab.Visible = false
+	end)
+end
+coroutine.wrap(HYZDUT_fake_script)()
+local function UGSDVF_fake_script() -- troll.LocalScript 
+	local script = Instance.new('LocalScript', troll)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.trolltab.Visible = true
+	end)
+end
+coroutine.wrap(UGSDVF_fake_script)()
+local function UEXFMCR_fake_script() -- minimize_7.LocalScript 
+	local script = Instance.new('LocalScript', minimize_7)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.esptab.Visible = false
+	end)
+end
+coroutine.wrap(UEXFMCR_fake_script)()
+local function YDRVTGZ_fake_script() -- playeresp.LocalScript 
+	local script = Instance.new('LocalScript', playeresp)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.esptab.Visible = true
+	end)
+end
+coroutine.wrap(YDRVTGZ_fake_script)()
+local function BZMLRF_fake_script() -- main.drgcombat 
+	local script = Instance.new('LocalScript', main)
+
+	frame = script.Parent.combat
+	frame.Draggable = true
+	frame.Active = true
+	frame.Selectable = true
+end
+coroutine.wrap(BZMLRF_fake_script)()
+local function MFCVI_fake_script() -- main.drgmovement 
+	local script = Instance.new('LocalScript', main)
+
+	frame = script.Parent.movement
+	frame.Draggable = true
+	frame.Active = true
+	frame.Selectable = true
+end
+coroutine.wrap(MFCVI_fake_script)()
+local function SPURZG_fake_script() -- main.drgserver 
+	local script = Instance.new('LocalScript', main)
+
+	frame = script.Parent.server
+	frame.Draggable = true
+	frame.Active = true
+	frame.Selectable = true
+end
+coroutine.wrap(SPURZG_fake_script)()
+local function RQLB_fake_script() -- main.drgtroll 
+	local script = Instance.new('LocalScript', main)
+
+	frame = script.Parent.troll
+	frame.Draggable = true
+	frame.Active = true
+	frame.Selectable = true
+end
+coroutine.wrap(RQLB_fake_script)()
+local function FPYXL_fake_script() -- main.drgtesp 
+	local script = Instance.new('LocalScript', main)
+
+	frame = script.Parent.trinketesp
+	frame.Draggable = true
+	frame.Active = true
+	frame.Selectable = true
+end
+coroutine.wrap(FPYXL_fake_script)()
+local function KVJSU_fake_script() -- main.drgrender 
+	local script = Instance.new('LocalScript', main)
+
+	frame = script.Parent.render
+	frame.Draggable = true
+	frame.Active = true
+	frame.Selectable = true
+end
+coroutine.wrap(KVJSU_fake_script)()
+local function YADKCR_fake_script() -- main.drgpesp 
+	local script = Instance.new('LocalScript', main)
+
+	frame = script.Parent.playeresp
+	frame.Draggable = true
+	frame.Active = true
+	frame.Selectable = true
+end
+coroutine.wrap(YADKCR_fake_script)()
