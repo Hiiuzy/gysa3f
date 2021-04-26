@@ -51,13 +51,13 @@ main.Name = "main"
 main.Parent = AllahMain
 main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 main.BackgroundTransparency = 1.000
-main.Position = UDim2.new(0.0247706398, 0, -5.96046448e-08, 0)
-main.Size = UDim2.new(0, 835, 0, 337)
+main.Position = UDim2.new(0.0972477049, 0, 0.416666627, 0)
+main.Size = UDim2.new(0, 888, 0, 311)
 
 combat.Name = "combat"
 combat.Parent = main
 combat.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
-combat.Position = UDim2.new(-0.00855540019, 0, 0.0221088398, 0)
+combat.Position = UDim2.new(-0.0705085248, 0, -0.77096796, 0)
 combat.Size = UDim2.new(0, 105, 0, 26)
 combat.Font = Enum.Font.PermanentMarker
 combat.Text = "Combat"
@@ -91,7 +91,7 @@ minimize.TextSize = 14.000
 server.Name = "server"
 server.Parent = main
 server.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
-server.Position = UDim2.new(0.1381827, 0, 0.0221088398, 0)
+server.Position = UDim2.new(0.102237031, 0, -0.77096796, 0)
 server.Size = UDim2.new(0, 111, 0, 26)
 server.Font = Enum.Font.PermanentMarker
 server.Text = "Server"
@@ -125,7 +125,7 @@ minimize_2.TextSize = 14.000
 render.Name = "render"
 render.Parent = main
 render.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
-render.Position = UDim2.new(0.282651991, 0, 0.0221088398, 0)
+render.Position = UDim2.new(0.271641582, 0, -0.77096796, 0)
 render.Size = UDim2.new(0, 110, 0, 26)
 render.Font = Enum.Font.PermanentMarker
 render.Text = "Render"
@@ -159,7 +159,7 @@ minimize_3.TextSize = 14.000
 movement.Name = "movement"
 movement.Parent = main
 movement.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
-movement.Position = UDim2.new(0.425979435, 0, 0.0221088398, 0)
+movement.Position = UDim2.new(0.412805796, 0, -0.770719886, 0)
 movement.Size = UDim2.new(0, 107, 0, 26)
 movement.Font = Enum.Font.PermanentMarker
 movement.Text = "Movement"
@@ -193,7 +193,7 @@ minimize_4.TextSize = 14.000
 trinketesp.Name = "trinketesp"
 trinketesp.Parent = main
 trinketesp.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
-trinketesp.Position = UDim2.new(0.713524282, 0, 0.0221088398, 0)
+trinketesp.Position = UDim2.new(0.70789367, 0, -0.771702647, 0)
 trinketesp.Size = UDim2.new(0, 103, 0, 26)
 trinketesp.Font = Enum.Font.PermanentMarker
 trinketesp.Text = "TrinketEsp"
@@ -227,7 +227,7 @@ minimize_5.TextSize = 14.000
 troll.Name = "troll"
 troll.Parent = main
 troll.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
-troll.Position = UDim2.new(0.855160236, 0, 0.0221088398, 0)
+troll.Position = UDim2.new(0.862274349, 0, -0.774918079, 0)
 troll.Size = UDim2.new(0, 103, 0, 26)
 troll.Font = Enum.Font.PermanentMarker
 troll.Text = "Troll"
@@ -261,7 +261,7 @@ minimize_6.TextSize = 14.000
 playeresp.Name = "playeresp"
 playeresp.Parent = main
 playeresp.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
-playeresp.Position = UDim2.new(0.574563622, 0, 0.0221088398, 0)
+playeresp.Position = UDim2.new(0.571650982, 0, -0.773279071, 0)
 playeresp.Size = UDim2.new(0, 103, 0, 26)
 playeresp.Font = Enum.Font.PermanentMarker
 playeresp.Text = "PlayerEsp"
@@ -294,119 +294,119 @@ minimize_7.TextSize = 14.000
 
 -- Scripts:
 
-local function ZEANFKF_fake_script() -- combat.LocalScript 
+local function VMNAE_fake_script() -- combat.LocalScript 
 	local script = Instance.new('LocalScript', combat)
 
 	script.Parent.MouseButton1Down:connect(function()
 		script.Parent.combattab.Visible = true
 	end)
 end
-coroutine.wrap(ZEANFKF_fake_script)()
-local function GKWHR_fake_script() -- minimize.LocalScript 
+coroutine.wrap(VMNAE_fake_script)()
+local function IBBI_fake_script() -- minimize.LocalScript 
 	local script = Instance.new('LocalScript', minimize)
 
 	script.Parent.MouseButton1Down:connect(function()
 		script.Parent.Parent.combattab.Visible = false
 	end)
 end
-coroutine.wrap(GKWHR_fake_script)()
-local function MMBJZ_fake_script() -- minimize_2.LocalScript 
+coroutine.wrap(IBBI_fake_script)()
+local function VHHVCZ_fake_script() -- minimize_2.LocalScript 
 	local script = Instance.new('LocalScript', minimize_2)
 
 	script.Parent.MouseButton1Down:connect(function()
 		script.Parent.Parent.servertab.Visible = false
 	end)
 end
-coroutine.wrap(MMBJZ_fake_script)()
-local function WKUYQXO_fake_script() -- server.LocalScript 
+coroutine.wrap(VHHVCZ_fake_script)()
+local function XMUEGN_fake_script() -- server.LocalScript 
 	local script = Instance.new('LocalScript', server)
 
 	script.Parent.MouseButton1Down:connect(function()
 		script.Parent.servertab.Visible = true
 	end)
 end
-coroutine.wrap(WKUYQXO_fake_script)()
-local function ORDGD_fake_script() -- render.LocalScript 
+coroutine.wrap(XMUEGN_fake_script)()
+local function XEMZUF_fake_script() -- render.LocalScript 
 	local script = Instance.new('LocalScript', render)
 
 	script.Parent.MouseButton1Down:connect(function()
 		script.Parent.rendertab.Visible = true
 	end)
 end
-coroutine.wrap(ORDGD_fake_script)()
-local function SXNP_fake_script() -- minimize_3.LocalScript 
+coroutine.wrap(XEMZUF_fake_script)()
+local function JKVA_fake_script() -- minimize_3.LocalScript 
 	local script = Instance.new('LocalScript', minimize_3)
 
 	script.Parent.MouseButton1Down:connect(function()
 		script.Parent.Parent.rendertab.Visible = false
 	end)
 end
-coroutine.wrap(SXNP_fake_script)()
-local function MTXNR_fake_script() -- minimize_4.LocalScript 
+coroutine.wrap(JKVA_fake_script)()
+local function RCIL_fake_script() -- minimize_4.LocalScript 
 	local script = Instance.new('LocalScript', minimize_4)
 
 	script.Parent.MouseButton1Down:connect(function()
 		script.Parent.Parent.movementtab.Visible = false
 	end)
 end
-coroutine.wrap(MTXNR_fake_script)()
-local function BSUCPWB_fake_script() -- movement.LocalScript 
+coroutine.wrap(RCIL_fake_script)()
+local function CQYRPO_fake_script() -- movement.LocalScript 
 	local script = Instance.new('LocalScript', movement)
 
 	script.Parent.MouseButton1Down:connect(function()
 		script.Parent.movementtab.Visible = true
 	end)
 end
-coroutine.wrap(BSUCPWB_fake_script)()
-local function XOBQZ_fake_script() -- trinketesp.LocalScript 
+coroutine.wrap(CQYRPO_fake_script)()
+local function ELGHFN_fake_script() -- trinketesp.LocalScript 
 	local script = Instance.new('LocalScript', trinketesp)
 
 	script.Parent.MouseButton1Down:connect(function()
 		script.Parent.trinkettab.Visible = true
 	end)
 end
-coroutine.wrap(XOBQZ_fake_script)()
-local function SAJJGEZ_fake_script() -- minimize_5.LocalScript 
+coroutine.wrap(ELGHFN_fake_script)()
+local function OYBF_fake_script() -- minimize_5.LocalScript 
 	local script = Instance.new('LocalScript', minimize_5)
 
 	script.Parent.MouseButton1Down:connect(function()
 		script.Parent.Parent.trinkettab.Visible = false
 	end)
 end
-coroutine.wrap(SAJJGEZ_fake_script)()
-local function HYZDUT_fake_script() -- minimize_6.LocalScript 
+coroutine.wrap(OYBF_fake_script)()
+local function UIAPS_fake_script() -- minimize_6.LocalScript 
 	local script = Instance.new('LocalScript', minimize_6)
 
 	script.Parent.MouseButton1Down:connect(function()
 		script.Parent.Parent.trolltab.Visible = false
 	end)
 end
-coroutine.wrap(HYZDUT_fake_script)()
-local function UGSDVF_fake_script() -- troll.LocalScript 
+coroutine.wrap(UIAPS_fake_script)()
+local function DVIU_fake_script() -- troll.LocalScript 
 	local script = Instance.new('LocalScript', troll)
 
 	script.Parent.MouseButton1Down:connect(function()
 		script.Parent.trolltab.Visible = true
 	end)
 end
-coroutine.wrap(UGSDVF_fake_script)()
-local function UEXFMCR_fake_script() -- minimize_7.LocalScript 
+coroutine.wrap(DVIU_fake_script)()
+local function TTQWX_fake_script() -- minimize_7.LocalScript 
 	local script = Instance.new('LocalScript', minimize_7)
 
 	script.Parent.MouseButton1Down:connect(function()
 		script.Parent.Parent.esptab.Visible = false
 	end)
 end
-coroutine.wrap(UEXFMCR_fake_script)()
-local function YDRVTGZ_fake_script() -- playeresp.LocalScript 
+coroutine.wrap(TTQWX_fake_script)()
+local function ZNQXVBA_fake_script() -- playeresp.LocalScript 
 	local script = Instance.new('LocalScript', playeresp)
 
 	script.Parent.MouseButton1Down:connect(function()
 		script.Parent.esptab.Visible = true
 	end)
 end
-coroutine.wrap(YDRVTGZ_fake_script)()
-local function BZMLRF_fake_script() -- main.drgcombat 
+coroutine.wrap(ZNQXVBA_fake_script)()
+local function OHQIAOG_fake_script() -- main.drgcombat 
 	local script = Instance.new('LocalScript', main)
 
 	frame = script.Parent.combat
@@ -414,8 +414,8 @@ local function BZMLRF_fake_script() -- main.drgcombat
 	frame.Active = true
 	frame.Selectable = true
 end
-coroutine.wrap(BZMLRF_fake_script)()
-local function MFCVI_fake_script() -- main.drgmovement 
+coroutine.wrap(OHQIAOG_fake_script)()
+local function HRTRVT_fake_script() -- main.drgmovement 
 	local script = Instance.new('LocalScript', main)
 
 	frame = script.Parent.movement
@@ -423,8 +423,8 @@ local function MFCVI_fake_script() -- main.drgmovement
 	frame.Active = true
 	frame.Selectable = true
 end
-coroutine.wrap(MFCVI_fake_script)()
-local function SPURZG_fake_script() -- main.drgserver 
+coroutine.wrap(HRTRVT_fake_script)()
+local function UCQLWLD_fake_script() -- main.drgserver 
 	local script = Instance.new('LocalScript', main)
 
 	frame = script.Parent.server
@@ -432,8 +432,8 @@ local function SPURZG_fake_script() -- main.drgserver
 	frame.Active = true
 	frame.Selectable = true
 end
-coroutine.wrap(SPURZG_fake_script)()
-local function RQLB_fake_script() -- main.drgtroll 
+coroutine.wrap(UCQLWLD_fake_script)()
+local function RXWWBCR_fake_script() -- main.drgtroll 
 	local script = Instance.new('LocalScript', main)
 
 	frame = script.Parent.troll
@@ -441,8 +441,8 @@ local function RQLB_fake_script() -- main.drgtroll
 	frame.Active = true
 	frame.Selectable = true
 end
-coroutine.wrap(RQLB_fake_script)()
-local function FPYXL_fake_script() -- main.drgtesp 
+coroutine.wrap(RXWWBCR_fake_script)()
+local function EFCO_fake_script() -- main.drgtesp 
 	local script = Instance.new('LocalScript', main)
 
 	frame = script.Parent.trinketesp
@@ -450,8 +450,8 @@ local function FPYXL_fake_script() -- main.drgtesp
 	frame.Active = true
 	frame.Selectable = true
 end
-coroutine.wrap(FPYXL_fake_script)()
-local function KVJSU_fake_script() -- main.drgrender 
+coroutine.wrap(EFCO_fake_script)()
+local function ONZBFR_fake_script() -- main.drgrender 
 	local script = Instance.new('LocalScript', main)
 
 	frame = script.Parent.render
@@ -459,8 +459,8 @@ local function KVJSU_fake_script() -- main.drgrender
 	frame.Active = true
 	frame.Selectable = true
 end
-coroutine.wrap(KVJSU_fake_script)()
-local function YADKCR_fake_script() -- main.drgpesp 
+coroutine.wrap(ONZBFR_fake_script)()
+local function WVBSII_fake_script() -- main.drgpesp 
 	local script = Instance.new('LocalScript', main)
 
 	frame = script.Parent.playeresp
@@ -468,4 +468,4 @@ local function YADKCR_fake_script() -- main.drgpesp
 	frame.Active = true
 	frame.Selectable = true
 end
-coroutine.wrap(YADKCR_fake_script)()
+coroutine.wrap(WVBSII_fake_script)()
